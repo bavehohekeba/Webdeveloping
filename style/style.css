@@ -1,0 +1,39 @@
+.okenko {
+    background-color: chartreuse;
+    border: 1px solid black;
+    width: 500px;
+    }
+    
+    
+    
+    main {
+        display: flex;
+        justify-content:  center;
+    
+    }
+    
+    
+    .odsazeni {
+        display: flex;
+        justify-content: center;
+        margin: 16px 0;
+    }
+    
+    .odsazeni label {
+        width: 100px;
+    }
+    
+    .buttons a {
+        background-color: crimson;
+        right: 500px;
+        padding: 5px;
+        border: 1px solid black;
+        width: 50%;
+        margin: auto;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        margin: auto;
+    }
