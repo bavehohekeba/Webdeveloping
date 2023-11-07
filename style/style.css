@@ -1,7 +1,9 @@
 .okenko {
-    background-color: chartreuse;
+    background-color: rgb(221, 42, 19);
     border: 1px solid black;
-    width: 500px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
     
     
@@ -21,6 +23,7 @@
     
     .odsazeni label {
         width: 100px;
+        border-radius:100px ;
     }
     
     .buttons a {
@@ -30,10 +33,17 @@
         border: 1px solid black;
         width: 50%;
         margin: auto;
+        text-align: center;
+        margin:15px;
+        border-radius:10px ;
+        
     }
     .buttons{
         display: flex;
         justify-content: space-around;
         padding: 15px;
         margin: auto;
+        left:10px;
+        color: blue;
     }
+
